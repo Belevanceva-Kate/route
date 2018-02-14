@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<title>Route</title>
+	<link rel="shortcut icon" href="favicon.png">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div id="map"></div>
+
+	<form action="post" class="form">
+		<label for="input-from" class="input-label">Enter the start point:</label>
+		<input type="text" class="input input-from" id="input-from">
+		
+		<label for="input-to" class="input-label">Enter the finish point:</label>
+		<input type="text" class="input input-to" id="input-to">
+
+		<button class="btn">Find the route</button>
+	</form>
+
+	<script src="js/scripts.js"></script>
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBg_Zub8YprwbnK_4a4dZDa-28fHVItSPw&callback=initMap">
+    </script>
+</body>
+</html>
